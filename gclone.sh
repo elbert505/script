@@ -38,6 +38,7 @@ esac
 wget -qO- https://api.github.com/repos/donwa/gclone/releases/latest \
 | grep browser_download_url | grep "$BINTAG" | cut -d '"' -f 4 \
 | wget --no-verbose -i- -O- | gzip -d -c > ${CLDBIN}
+
 #chmod 0755 ${CLDBIN}
 
 gclone version
