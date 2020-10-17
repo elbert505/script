@@ -1,4 +1,4 @@
-#!/apps/gclone/env bash
+#!~/apps/gclone/env bash
 
 set -o errexit
 set -o pipefail
