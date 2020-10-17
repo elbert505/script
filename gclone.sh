@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/apps/gclone/env bash
 
 set -o errexit
 set -o pipefail
@@ -14,7 +14,7 @@ fi
 #    exit 1
 #fi
 
-CLDBIN=/usr/bin/gclone
+CLDBIN=/apps/gclone
 OSARCH=$(uname -m)
 case $OSARCH in 
     x86_64)
