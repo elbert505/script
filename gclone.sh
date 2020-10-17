@@ -9,10 +9,10 @@ if ! command -v systemctl >/dev/null 2>&1; then
     exit 1
 fi
 
-if [[ $(id -u) -ne 0 ]]; then
-    echo "This script must be run as root" 
-    exit 1
-fi
+#if [[ $(id -u) -ne 0 ]]; then
+#    echo "This script must be run as root" 
+#    exit 1
+#fi
 
 CLDBIN=/usr/bin/gclone
 OSARCH=$(uname -m)
