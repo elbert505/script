@@ -14,7 +14,7 @@ fi
 #    exit 1
 #fi
 
-CLDBIN=/apps/gclone
+CLDBIN=~/apps/gclone
 OSARCH=$(uname -m)
 case $OSARCH in 
     x86_64)
